@@ -20,6 +20,10 @@ export default function PostBox() {
   const user = useSelector((state) => state.user);
 
   const handlePostSubmit = (e) => {
+    if (!postText || !postGifs.length) {
+      alert("Post cannot be Empty");
+      return;
+    }
     e.preventDefault();
     // let text = postText;
 
