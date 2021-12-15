@@ -20,11 +20,11 @@ export default function PostBox() {
   const user = useSelector((state) => state.user);
 
   const handlePostSubmit = (e) => {
+    e.preventDefault();
     if (!postText || !postGifs.length) {
       alert("Post cannot be Empty");
       return;
     }
-    e.preventDefault();
     // let text = postText;
 
     // text.match(/(http|https):\/\/[a-z]+\.[a-z]+[\/a-z]+/gi).forEach(m => {
