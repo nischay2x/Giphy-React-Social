@@ -1,0 +1,39 @@
+.img-hold{
+  width: 2rem;
+  height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: gray;
+}
+
+.post-hold{
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.gif-hold{
+  width: 48%;
+  position: relative;
+}
+.gif-hold .gif-remove{
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  background: #fff;
+  color: #000;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 50%;
+  cursor: pointer; 
+  transition: 0.2s ease;
+}
+.gif-hold .gif-remove:hover{
+  background: #000;
+  color: #fff;
+}
+
+.gif-grid-hold{
+  max-height: 200px;
+  overflow: hidden scroll;
+}

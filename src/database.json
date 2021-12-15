@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "00001",
+      "author": "Zach Woods",
+      "text": "I simply imagine that my skeleton is me and my skin are my walls, in that way I am always home.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGktNNEy2zDQzeW9Yn8aJVMTO-k0RJKCABw&usqp=CAU",
+      "gifs": ["l0K3ZjyH61GlNoHQc", "8fi9oxCKjbMHo26AjH"],
+      "datetime": "12/15/2021, 11:15:27 PM"
+    },
+    {
+      "id": "00002",
+      "author": "Dinesh Chugtai",
+      "text": "Well this may sound a little bit bad, but I am sure this will work.",
+      "image": "https://i.pinimg.com/236x/f9/75/81/f9758151b717582c500f0dcc33beca4f.jpg",
+      "gifs": ["7anfxBUUs0DCsY6adf", "l0K3ZjyH61GlNoHQc"],
+      "datetime": "12/15/2021, 11:15:27 PM"
+    }
+  ],
+  "user": {
+    "name": "Bertram Gilfoyle",
+    "id": "US212",
+    "image": "https://avatarfiles.alphacoders.com/160/thumb-160787.jpg"
+  }
+}

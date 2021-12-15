@@ -1,0 +1,12 @@
+body {
+  background: #03f043;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: clamp(450px, 450px, 90%);
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 1rem;
+}
